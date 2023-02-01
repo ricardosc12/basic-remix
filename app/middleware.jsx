@@ -4,7 +4,7 @@ import { routes } from "@/config/routes";
 
 export default async function Middleware({request}){
     const route = new URL(request.url).pathname
-    if(route=='/' || route=='/app'){
+    if(route=='/' || route=='/app' || route=="/app/store"){
         return redirect('/app/dashboard')
     }
     return json(true)
