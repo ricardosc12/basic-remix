@@ -1,5 +1,5 @@
 import Middleware from "@/middleware"
-export const loader = Middleware
+// export const loader = Middleware
 
 import Store from "@/components/organisms/Store"
 import Framer from "@/components/layouts/Framer"
